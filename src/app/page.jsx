@@ -2,6 +2,7 @@
 import React from "react";
 import Products from "./components/products";
 import Counter from "./components/counter";
+import ClickCounter from "./components/click";
 
 // use client
 export default function Home() {
@@ -15,6 +16,9 @@ export default function Home() {
       />
       
       <Counter/>
+
+      <ClickCounter/>
+      
     </div>
   );
 }
